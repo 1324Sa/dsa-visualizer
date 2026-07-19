@@ -1,108 +1,104 @@
+
+
 ```markdown
-# 🚀 Interactive DSA Visualizer
+# 🚀 Interactive DSA Visualizer | محاكي هياكل البيانات والخوارزميات التفاعلي
 
-An advanced, real-time educational platform engineered to bridge the gap between abstract computer science theory and concrete code execution. Unlike traditional static visualizers, this tool empowers users to **edit code snippets live** from the UI and witness exactly how modification alters algorithmic behavior and data mutations step-by-step.
-
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
----
-
-## 💡 Key Architectural Pillars
-
-* **✍️ Live Code Compilation & Tracking:** A dynamic code viewer component allowing immediate inline adjustments. Users can interactively rewrite array logic or stack triggers on the fly.
-* **⏱️ Granular Execution Control Engine:** Powered by a synchronized time-stepping engine capable of Play, Pause, and full State Reset, ensuring precise trace analysis through loops and pointers.
-* **📊 Synchronized Frame Rendering:** Accurate millisecond alignment between the highlighted line of executing code and the dynamic render layout on the viewport canvas.
-* **🎨 Premium Interactive Dark UI:** Sleek, fault-tolerant responsive dashboard interface mapped smoothly across layout grids using Tailwind CSS.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
+</p>
 
 ---
 
-## 🛠️ Deep Dive: Supported Implementations
+## 📝 وصف المشروع | Project Description
 
-### 1. Bubble Sort (Algorithm)
-* **Visual Representation:** Dynamically scaling bar graphs updating state elements in array memory.
-* **Visual Indicators:** Active color shifts (Orange/Indigo) highlighting array indices currently being compared and conditionally swapped in the inner loop.
-* **Code Sync:** Tracks loop boundaries $i$ and $j$ directly across the live multi-line conditional block.
+**محاكي هياكل البيانات والخوارزميات التفاعلي** هو منصة تعليمية متقدمة مصممة لسد الفجوة بين الأكواد البرمجية النظرية والتمثيل المرئي الحي. يتيح التطبيق للمطورين والطلاب فهم كواليس عمل الخوارزميات وهياكل البيانات من خلال بيئة تفاعلية فريدة لا تكتفي بعرض الحركة فقط، بل تمنح المستخدم القدرة على **تعديل الكود البرمجي حياً ومباشرة** من الواجهة ومراقبة تأثير ذلك على حركة البيانات خطوة بخطوة.
 
-### 2. Stack (Data Structure)
-* **Visual Representation:** A bounded memory-bucket containment vector demonstrating LIFO (Last-In, First-Out) operations.
-* **Animations:** Drop-down transitions displaying entry (`push`) and deletion (`pop`) sequencing with automated bounce indicators.
+**Interactive DSA Visualizer** is an advanced educational platform built to bridge the gap between theoretical code and visual execution. Unlike static visualizers, this tool empowers developers and students to **edit code snippets live** directly from the UI, synchronizing every code branch with real-time, step-by-step animations of foundational computer science concepts.
 
 ---
 
-## 🎛️ Technology Stack
+## ✨ الميزات الرئيسية | Key Features
 
-* **Frontend Library:** React.js (Hooks, `useRef`, custom scheduler states)
-* **Styling Framework:** Tailwind CSS (Modern Slate & Indigo color palette)
-* **Build Tooling:** Vite (Lightning-fast HMR and bundling profiles)
+* **✍️ تحرير الكود الحي (Live Code Editing):** شاشة تتبع برمجية ذكية تتيح للمستخدم النقر داخل أي سطر وكتابة وتعديل الكود، مما يعزز الفهم التجريبي لتغيير المتغيرات والقيم.
+* **⏱️ التحكم الدقيق بالتنفيذ (Execution Control Engine):** محرك محاكاة متزامن يدعم التجميد (Pause)، التشغيل (Play)، وإعادة الضبط (Reset)، مما يسمح بفحص البيانات عند كل دورة (Iteration) أو عملية ذاكرة بشكل دقيق.
+* **📊 تظليل الأسطر المتزامن (Real-time Line Highlighting):** مزامنة كاملة بالملي ثانية بين السطر البرمجي الجاري تنفيذه في شاشة الكود وبين العنصر المتحرك في لوحة العرض.
+* **💡 محاكاة الخوارزميات والهياكل (Algorithms & Structures Implemented):**
+    * **Bubble Sort:** محاكاة حركية للأعمدة مع وميض بصري يوضح مقارنة العناصر وتبديلها (Swapping).
+    * **Stack Data Structure:** تمثيل مرئي لصندوق الذاكرة يوضح بدقة عمليات الدفع والرفع (`push` & `pop`) بشكل تفاعلي.
+* **🎨 واجهة مستخدم داكنة وعصرية (Premium Dark UI):** تجربة بصرية مريحة للعين ومبنية بالكامل باستخدام Tailwind CSS بتخطيط شبكي مرن ومقاوم للخطأ البرمجي.
+
+---
+
+## 🛠️ التقنيات المستخدمة | Tech Stack
+
+* **Frontend Library:** React.js (Hooks, Refs, state management)
+* **Styling:** Tailwind CSS (Modern Slate & Indigo Palette)
+* **Build Tool:** Vite (Super fast bundling and HMR)
 * **Version Control:** Git & GitHub
 
 ---
 
-## 📂 Project Architecture
+## 🚀 تشغيل المشروع محلياً | Installation & Setup
 
-```text
-src/
-├── components/
-│   ├── Sidebar.jsx           # Dashboard panel for structural choices & state controls
-│   ├── VisualizerCanvas.jsx  # Frame-canvas transforming live arrays/stacks into visuals
-│   └── CodeViewer.jsx        # Editable, tokenized syntax engine for trace execution
-├── App.jsx                   # Central Hub & core scheduling simulation engine
-├── main.jsx                  # React application mount point
-└── index.css                 # Global stylesheets compiled with Tailwind directives
-
-```
-
----
-
-## 🚀 Installation & Local Development
-
-Set up a local instance of the interactive development server using the following sequences:
+لصيانة وتطوير المشروع أو تشغيله على جهازك الشخصي، اتبع الخطوات التالية:
 
 ```bash
-# 1. Clone the repository
+# 1. استنساخ المستودع
 git clone [https://github.com/1324Sa/dsa-visualizer.git](https://github.com/1324Sa/dsa-visualizer.git)
 
-# 2. Navigate into the project directory
+# 2. الانتقال إلى مجلد المشروع
 cd dsa-visualizer
 
-# 3. Install production and development dependencies
+# 3. تثبيت الحزم والاعتماديات
 npm install
 
-# 4. Spin up the local development environment
+# 4. تشغيل سيرفر التطوير المحلي
 npm run dev
 
 ```
 
 ---
 
-## 🤝 Contribution Guidelines
+## 📂 هيكلية المشروع | Project Architecture
 
-Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any enhancements, optimization branches, or new structural additions (e.g., Merge Sort, Linked Lists, Trees) are highly welcome!
-
-1. **Fork** the Project.
-2. Create your **Feature Branch** (`git checkout -b feature/AmazingFeature`).
-3. **Commit** your modifications (`git commit -m 'feat: Add some AmazingFeature'`).
-4. **Push** to the branch (`git push origin feature/AmazingFeature`).
-5. Open a **Pull Request**.
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+```text
+src/
+├── components/
+│   ├── Sidebar.jsx           # لوحة التحكم، واختيار الخوارزميات وأزرار التنفيذ
+│   ├── VisualizerCanvas.jsx  # لوحة الرسم الحركية لعرض الأعمدة والمكدس (Canvas)
+│   └── CodeViewer.jsx        # شاشة تتبع الكود البرمجي القابلة للتعديل الحي
+├── App.jsx                   # المحرك الرئيسي وإدارة حالات المحاكاة والتوقيت
+├── main.jsx                  # نقطة الانطلاق للتطبيق
+└── index.css                 # التنسيقات العامة المدعومة بـ Tailwind
 
 ```
 
-### 💡 Next Recommended Step:
-Now that your codebase is successfully pushed, open your terminal and run:
-1. `git add README.md`
-2. `git commit -m "docs: add comprehensive english readme"`
-3. `git push origin main`
+---
 
-Once pushed, your GitHub profile repository will display this clean, professional English landing page!
+## 🤝 المساهمة | Contributing
 
-```<img width="2880" height="1479" alt="image" src="https://github.com/user-attachments/assets/e3eef245-f9dc-4485-b3cd-9b35b8732756" />
+المساهمات تجعل المجتمع التقني مكاناً رائعاً للتعلم والابتكار. إذا كان لديك أي تحسينات أو خوارزميات جديدة تود إضافتها (مثل Merge Sort أو Linked Lists)، يسعدني جداً استقبال الـ **Pull Requests** الخاصة بك!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 الترخيص | License
+
+المشروع مفتوح المصدر ومتاح تحت رخصة **MIT License**.
+
+```
+
+---
+
+### 💡 نصيحة إضافية لزيادة قوة الـ README:
+بعد أن تقوم برفع هذا الملف إلى GitHub، يفضل جداً أن تأخذ **لقطة شاشة (Screenshot)** واضحة للتطبيق وهو يعمل، ثم ترفع الصورة في مجلد داخل المشروع وتضيف رابطها في قسم الـ Description تحت سطر العنوان ليصبح المستودع مذهلاً وبصرياً لأي زائر!
+
+```
